@@ -1,0 +1,626 @@
+<div class="main-wrap">
+  <div id="inner-wrap" class="container">
+    <h3 id="head">Sri Lanka's Biggest Shopping mall</h3>
+    <div class="row" id="wrap">
+      <div id="one">
+        <div class="item">
+          <!--start musics list-->
+
+          <div id="express-music" class="for-img">
+            <img src="https://www.billboard.com/files/styles/768x433/public/media/100-Best-Songs-of-2018-billboard-fea-1500.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Musics In The World</h2>
+
+              <ul>
+                <li *ngFor="let musictemp of musicArray; index as i">
+                  <a href="#">{{musictemp.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end musics list-->
+
+
+          <!--start Fire Tablets list-->
+
+          <div id="Fire-Tablets" class="for-img">
+            <img src="https://icdn2.digitaltrends.com/image/primeday_amazon-fire-tablet-kids-edition-375x375.jpg?ver=1.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Fire Tablets</h2>
+
+              <ul>
+                <li *ngFor="let tempfiertv of fiertabletArray; index as i">
+                  <a href="#">{{tempfiertv.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Fire Tablets list-->
+
+          <!--start Fire TV list-->
+
+          <div id="Fire-TV" class="for-img">
+            <img src="https://assets.pcmag.com/media/images/481041-amazon-fire-tv-2015.jpg?thumb=y&width=980&height=416" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Fire TV</h2>
+
+              <ul>
+                <li *ngFor="let tempfiertv of fiertvArray; index as i">
+                  <a href="#">{{tempfiertv.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Fire TV list-->
+
+          <!--start Kindle E-readers & Books list-->
+
+          <div id="Kindle-E-readers-Books" class="for-img">
+            <img src="https://media.wired.com/photos/5955d98796d7ef123a1d4779/master/pass/Kindle-DX.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Kindle E-readers & Books</h2>
+
+              <ul>
+                <li *ngFor="let tempkindle of kindleStoreArray;">
+                  <a href="#">{{tempkindle.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Kindle E-readers & Books list-->
+
+          <!--start Appstore for Android list-->
+
+          <div id="Appstore-for-Android" class="for-img">
+            <img src="https://miro.medium.com/max/1838/1*UL2cOeH9M7dVfIe1k5qlrw.jpeg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">App store for Android</h2>
+
+              <ul>
+                <li *ngFor="let tempappstore of appstoreArray;">
+                  <a href="#">{{tempappstore.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Appstore for Android list-->
+
+          <!--start Smart Home list-->
+
+          <div id="Smart-Home" class="for-img">
+            <img src="https://assets.pcmag.com/media/images/618442-amazon-echo-smart-speakers.jpg?thumb=y&width=980&height=416" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Smart Home</h2>
+
+              <ul>
+                <li *ngFor="let tempsmarthome of smarthomeArray;">
+                  <a href="#">{{tempsmarthome.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Smart Home list-->
+
+          <!--start Amazon Physical Stores list-->
+
+          <div id="Amazon-Physical-Stores" class="for-img">
+            <img src="https://www.audioholics.com/news/amazon-echo-devices-audio-equalizer-settings/image" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Echo & Alexa</h2>
+
+              <ul>
+                <li *ngFor="let tempecho of echoArray;">
+                  <a href="#">{{tempecho.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Amazon Physical Stores list-->
+
+        </div>
+      </div>
+      <div id="two">
+        <div class="item">
+          <!--start Subscribe with Express list-->
+
+          <div id="Subscribe-with-Express" class="for-img">
+            <img src="https://religionnews.com/wp-content/uploads/2015/01/email-marketing-2362038_1920-990x629.png" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Subscribe with Us</h2>
+
+              <ul>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Subscribe with Express list-->
+
+          <!--start  Live Stream list-->
+
+          <div id="live-stream" class="for-img">
+            <img src="https://files.logoscdn.com/v1/files/26849154/content.jpg?signature=Tx2Ik_B7n2OXnk4uOnTRie2SSZk" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Live Stream</h2>
+
+              <ul>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Live Stream list-->
+
+
+          <!--start International Shopping list-->
+
+          <div id="International-Shopping" class="for-img">
+            <img src="https://static.makeuseof.com/wp-content/uploads/2018/02/free-shipping-sites-670x335.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">International Shopping</h2>
+
+              <ul>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end International Shopping list-->
+
+
+          <!--start Pet supplies list-->
+
+          <div id="Pet-supplies" class="for-img">
+            <img src="https://www.travenix.com/wp-content/uploads/2018/03/pet-stores.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Pet supplies</h2>
+
+              <ul>
+                <li *ngFor="let temppetsuply of petArray; index as i">
+                  <a href="#">{{temppetsuply.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Pet supplies list-->
+
+
+          <!--start Sports and Outdoors list-->
+
+          <div id="Sports-and-Outdoors" class="for-img">
+            <img src="https://larue.com.kh/image/catalog/sports-outdoors-banner.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Sports and Outdoors</h2>
+
+              <ul>
+                <li *ngFor="let tempsport of sportArray; index as i">
+                  <a href="#">{{tempsport.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Sports and Outdoors list-->
+
+
+          <!--start Baby list-->
+
+          <div id="Baby" class="for-img">
+            <img src="https://essity-images.essity.com/images-c5/629/169629/w1080_jpg/baby-woman-greenhouse-grapes-diaper.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Baby</h2>
+
+              <ul>
+                <li *ngFor="let tempbaby of babyArray; index as i">
+                  <a href="#">{{tempbaby.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Baby list-->
+
+
+          <!--start Automotive list-->
+
+          <div id="Automotive" class="for-img">
+            <img src="https://pictures.dealer.com/a/allenhyundai/1154/bb1561d1ed2191210ac84cd30c75de5bx.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Automotive</h2>
+
+              <ul>
+                <li *ngFor="let tempautomotive of automotiveArray; index as i">
+                  <a href="#">{{tempautomotive.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Automotive list-->
+
+
+          <!--start Arts & Crafts list-->
+
+          <div id="Arts-Crafts" class="for-img">
+            <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F63677282%2F248988329689%2F1%2Foriginal.20190610-200954?w=1000&auto=compress&rect=0%2C1%2C480%2C240&s=cac518078b283aab67f7f20ad5d7e31a" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Arts & Crafts</h2>
+
+              <ul>
+                <li *ngFor="let tempart of artsandcraftArray; index as i">
+                  <a href="#">{{tempart.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Arts & Crafts list-->
+
+
+          <!--start Beauty and personal care list-->
+
+          <div id="Beauty-and-personal-care" class="for-img">
+            <img src="https://themarketfact.com/wp-content/uploads/2019/05/Beauty-and-Personal-Care-Market.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Beauty and personal care</h2>
+
+              <ul>
+                <li *ngFor="let tempbeauty of beautyandpersonalArray; index as i">
+                  <a href="#">{{tempbeauty.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Beauty and personal care list-->
+
+
+          <!--start Computers list-->
+
+          <div id="Computers" class="for-img">
+            <img src="https://d2joxxgq39wu1j.cloudfront.net/imgs/TradingComputersAction.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Computers</h2>
+
+              <ul>
+                <li *ngFor="let tempcomputer of computerArray; index as i">
+                  <a href="#">{{tempcomputer.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Computers list-->
+
+
+        </div>
+      </div>
+      <div id="three">
+        <div class="item">
+
+
+          <!--start Electronics list-->
+
+          <div id="Electronics" class="for-img">
+            <img src="https://www.linaukis.com/wp-content/uploads/2014/03/amazon_ce_bb1.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Electronics & Accessories</h2>
+
+              <ul>
+                <li *ngFor="let tempelectronics of electronicArray; index as i">
+                  <a href="#">{{tempelectronics.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Electronics list-->
+
+          <!--start Women's Fashion list-->
+
+          <div id="Women-Fashion" class="for-img">
+            <img src="https://www.travelfashiongirl.com/wp-content/uploads/2012/11/anatomie-travel-clothes-for-women-functional-fashion1.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Women's Fashion</h2>
+
+              <ul>
+                <li *ngFor="let tempwomen of womenfationArray; index as i">
+                  <a href="#">{{tempwomen.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Women's Fashion list-->
+
+          <!--start Men's Fashion list-->
+
+          <div id="Men-Fashion" class="for-img">
+            <img src="https://manofmany.com/wp-content/uploads/2017/10/Guide-to-the-Mens-Smart-Casual-Dress-Code-Watch-Feature.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Men's Fashion</h2>
+
+              <ul>
+                <li *ngFor="let tempmensfation of computerArray; index as i">
+                  <a href="#">{{tempmensfation.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Men's Fashion list-->
+
+          <!--start Girls' Fashion list-->
+
+          <div id="Girls-Fashion" class="for-img">
+            <img src="https://www.porangahauhotel.co.nz/images/cate_28/640/Quality-advantage-2pcs-Baby-Girls-Short-Sleeve-TShirt-Top-Long-Jeans-2018-Fashion-Summer-Black-T-Shirt-Girls-Jeans-Children-Clothes-VGe7-sgt0.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Girls' Fashion</h2>
+
+              <ul>
+                <li *ngFor="let tempFashion of girlsfationArray; index as i">
+                  <a href="#">{{tempFashion.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Girls' Fashion list-->
+
+          <!--start Boys' Fashion list-->
+
+          <div id="Boys-Fashion" class="for-img">
+            <img src="https://i.ytimg.com/vi/Yjww9-qrAOQ/maxresdefault.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Boys' Fashion</h2>
+
+              <ul>
+                <li *ngFor="let tempBoysFashion of boysfationArray; index as i">
+                  <a href="#">{{tempBoysFashion.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Boys Fashion list-->
+
+          <!--start Health and Household list-->
+
+          <div id="Health-and-Household" class="for-img">
+            <img src="https://cdn.shopify.com/s/files/1/0745/8297/articles/Cleaner_Your_Home_While_Protecting_Your_Health.png?v=1549368236" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Health and Household</h2>
+
+              <ul>
+                <li *ngFor="let tempHealthHousehold of healthandsholderArray; index as i">
+                  <a href="#">{{tempHealthHousehold.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Health and Household list-->
+
+          <!--start Home and Kitchen list-->
+
+          <div id="Home-Kitchen" class="for-img">
+            <img src="https://cdn.shopify.com/s/files/1/0745/8297/articles/Cleaner_Your_Home_While_Protecting_Your_Health.png?v=1549368236" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Home and Kitchen</h2>
+
+              <ul>
+                <li *ngFor="let tempHomeandKitchen of homeandkithenArray; index as i">
+                  <a href="#">{{tempHomeandKitchen.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Home and Kitchen list-->
+
+          <!--start Industrial and Scientific list-->
+
+          <div id="IndustrialandScientific" class="for-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2019/img/BISS/XCM_Manual_1171879_BISS_general_landing_page_change_style_750x375_BISS_XCM_Manual_1169746_us_biss_industrial_cat_750x375_2_1558360575_jpg.jpg" alt="">
+            <div class="item-list">
+
+                <h2 class="name">Industrial and Scientific</h2>
+
+              <ul>
+                <li *ngFor="let tempIndustrialandScientific of industrialArray; index as i">
+                  <a href="#">{{tempIndustrialandScientific.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Industrial and Scientific list-->
+
+
+
+
+        </div>
+      </div>
+      <div id="four">
+        <div class="item">
+
+
+          <!--start Luggage list-->
+
+          <div id="Luggage" class="for-img">
+            <img src="https://images.yaoota.com/2qxSxlCGWk4zr-XvpOyjlAMZrWs=/trim/yaootaweb-production-sa/media/crawledproductimages/0e4986d2205a87d7401f8cbc79bc6ed8834937ca.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Luggage</h2>
+
+              <ul>
+                <li *ngFor="let tempLuggage of laggageArray; index as i">
+                  <a href="#">{{tempLuggage.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Luggage list-->
+
+          <!--start Movies & Television list-->
+
+          <div id="Movies-Television" class="for-img">
+            <img src="https://www.imore.com/sites/imore.com/files/styles/w1600h900crop_wm_blw/public/field/image/2016/11/tv-app-apple-tv-hero.jpg?itok=TgIvblzp" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Movies & Television</h2>
+
+              <ul>
+                <li *ngFor="let tempMoviesTelevision of moviesArray; index as i">
+                  <a href="#">{{tempMoviesTelevision.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Movies & Television list-->
+
+          <!--start Software and Scientific list-->
+
+          <div id="Software" class="for-img">
+            <img src="https://www.regdesk.co/wp-content/uploads/2019/05/software-erp.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Software</h2>
+
+              <ul>
+                <li *ngFor="let tempSoftware of softwareArray; index as i">
+                  <a href="#">{{tempSoftware.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Software list-->
+
+          <!--start Tools & Home Improvement list-->
+
+          <div id="Tools-Improvement" class="for-img">
+            <img src="https://www.budgetdumpster.com/blog/wp-content/uploads/2017/01/home-improvement-tools.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Tools & Home Improvement</h2>
+
+              <ul>
+                <li *ngFor="let tempToolsImprovement of toolsArray; index as i">
+                  <a href="#">{{tempToolsImprovement.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Tools & Home Improvement list-->
+
+          <!--start Toys and Games list-->
+
+          <div id="Toys-Games" class="for-img">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Toys and Games</h2>
+
+              <ul>
+                <li *ngFor="let tempToysandGames of toysArray; index as i">
+                  <a href="#">{{tempToysandGames.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Toys and Games list-->
+
+          <!--start Video Games list-->
+
+          <div id="Video-Games" class="for-img">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/National-Video-Game-Day-796x416.jpg" alt="">
+            <div class="item-list">
+
+              <h2 class="name">Video Games</h2>
+
+              <ul>
+                <li *ngFor="let VideoGames of videoArray; index as i">
+                  <a href="#">{{VideoGames.catogeryName}}</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--end Toys and Games list-->
+
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+     </div>
+</div>

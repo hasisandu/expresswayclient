@@ -1,0 +1,112 @@
+#wrap {
+  margin: 0px;
+  background-color: #232F3E;
+  height: auto;
+}
+
+#innerwrap {
+  width: 1500px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid #ecf0f1;
+  margin: auto;
+}
+
+#left-logo {
+  height: 100px;
+}
+
+#right-search-bar {
+
+  height: 100px;
+}
+
+#location-png {
+  height: 30px;
+}
+
+#country {
+  color: #bdc3c7;
+  margin-left: 10px;
+}
+
+#search-bar-div {
+  height: 50px;
+  padding-top: 10px;
+}
+
+#basic-text1 {
+  background-color: #F3A847;
+  color: black;
+}
+
+#bottom-search {
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+#navigate-set-left {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+#navigate-set-left li {
+  display: inline;
+}
+
+#navigate-set-left li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  margin-right: 20px;
+}
+
+#navigate-set-left li a b {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#navigate-set-left li a b:hover {
+  cursor: pointer;
+  color: #d35400;
+}
+
+
+#search-img {
+  width: 22px;
+  height: 22px;
+}
+
+.input-group-append:hover {
+  cursor: pointer;
+}
+
+.input-group-append:hover > .input-group-text {
+  background-color: #d35400;
+}
+
+#right {
+  float: left;
+}
+
+#right li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.A {
+  width: 35px;
+  height: 35px;
+}
+
+.badge1 {
+  position: absolute;
+}
+
+#logo:hover{
+  cursor: pointer;
+}

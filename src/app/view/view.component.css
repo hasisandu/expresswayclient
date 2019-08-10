@@ -13,6 +13,30 @@
 
 /*start tab bar*/
 
+.txtname {
+  font-weight: normal;
+  font-family: Bahnschrift;
+  color: #ecf0f1;
+  font-size: 24px;
+  padding: 10px 0px 0px 20px;
+}
+
+.txtimage {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+  background-color: #ecf0f1;
+}
+
+.txtimagedetail {
+  width: 90%;
+  height: 70px;
+  margin-left: 5%;
+  background-color: #ecf0f1;
+  margin-top: 15px;
+}
+
+
 #tab-bar-wrap{
   width: 100%;
   height: auto;
@@ -57,10 +81,10 @@
 /*Start From-Express-Way*/
 
 #From-Express-Way, #new-Smartphones, #video-games, #Men-watches, #Adult-party, #LaptopsComputers, #in-Home, #Best-Games{
-  font-family: Arial;
+  font-family: Bahnschrift;
   color: black;
-  font-weight: bold;
-  font-size: 17px;
+  font-weight: normal;
+  font-size: 19px;
   margin: 0px 0px 0px 10px;
   padding-top: 5px;
 }

@@ -14,7 +14,7 @@
 
               <ul>
                 <li *ngFor="let musictemp of musicArray; index as i">
-                  <a href="#">{{musictemp.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(musictemp)"> {{musictemp.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -34,7 +34,7 @@
 
               <ul>
                 <li *ngFor="let tempfiertv of fiertabletArray; index as i">
-                  <a href="#">{{tempfiertv.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempfiertv)"> {{tempfiertv.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -53,7 +53,7 @@
 
               <ul>
                 <li *ngFor="let tempfiertv of fiertvArray; index as i">
-                  <a href="#">{{tempfiertv.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempfiertv)">  {{tempfiertv.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -72,7 +72,7 @@
 
               <ul>
                 <li *ngFor="let tempkindle of kindleStoreArray;">
-                  <a href="#">{{tempkindle.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempkindle)"> {{tempkindle.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -91,7 +91,7 @@
 
               <ul>
                 <li *ngFor="let tempappstore of appstoreArray;">
-                  <a href="#">{{tempappstore.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempappstore)">  {{tempappstore.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -110,7 +110,7 @@
 
               <ul>
                 <li *ngFor="let tempsmarthome of smarthomeArray;">
-                  <a href="#">{{tempsmarthome.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempsmarthome)"> {{tempsmarthome.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -129,7 +129,7 @@
 
               <ul>
                 <li *ngFor="let tempecho of echoArray;">
-                  <a href="#">{{tempecho.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempecho)">  {{tempecho.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -205,7 +205,7 @@
 
               <ul>
                 <li *ngFor="let temppetsuply of petArray; index as i">
-                  <a href="#">{{temppetsuply.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(temppetsuply)"> {{temppetsuply.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -225,7 +225,7 @@
 
               <ul>
                 <li *ngFor="let tempsport of sportArray; index as i">
-                  <a href="#">{{tempsport.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempsport)"> {{tempsport.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -245,7 +245,7 @@
 
               <ul>
                 <li *ngFor="let tempbaby of babyArray; index as i">
-                  <a href="#">{{tempbaby.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempbaby)"> {{tempbaby.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -265,7 +265,7 @@
 
               <ul>
                 <li *ngFor="let tempautomotive of automotiveArray; index as i">
-                  <a href="#">{{tempautomotive.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempautomotive)"> {{tempautomotive.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -285,7 +285,7 @@
 
               <ul>
                 <li *ngFor="let tempart of artsandcraftArray; index as i">
-                  <a href="#">{{tempart.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempart)"> {{tempart.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -305,7 +305,7 @@
 
               <ul>
                 <li *ngFor="let tempbeauty of beautyandpersonalArray; index as i">
-                  <a href="#">{{tempbeauty.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempbeauty)"> {{tempbeauty.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -325,7 +325,7 @@
 
               <ul>
                 <li *ngFor="let tempcomputer of computerArray; index as i">
-                  <a href="#">{{tempcomputer.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempcomputer)"> {{tempcomputer.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -351,7 +351,7 @@
 
               <ul>
                 <li *ngFor="let tempelectronics of electronicArray; index as i">
-                  <a href="#">{{tempelectronics.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempelectronics)"> {{tempelectronics.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -370,7 +370,7 @@
 
               <ul>
                 <li *ngFor="let tempwomen of womenfationArray; index as i">
-                  <a href="#">{{tempwomen.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempwomen)"> {{tempwomen.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -389,7 +389,7 @@
 
               <ul>
                 <li *ngFor="let tempmensfation of computerArray; index as i">
-                  <a href="#">{{tempmensfation.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempmensfation)"> {{tempmensfation.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -408,7 +408,7 @@
 
               <ul>
                 <li *ngFor="let tempFashion of girlsfationArray; index as i">
-                  <a href="#">{{tempFashion.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempFashion)"> {{tempFashion.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -427,7 +427,7 @@
 
               <ul>
                 <li *ngFor="let tempBoysFashion of boysfationArray; index as i">
-                  <a href="#">{{tempBoysFashion.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempBoysFashion)"> {{tempBoysFashion.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -446,7 +446,7 @@
 
               <ul>
                 <li *ngFor="let tempHealthHousehold of healthandsholderArray; index as i">
-                  <a href="#">{{tempHealthHousehold.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempHealthHousehold)"> {{tempHealthHousehold.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -465,7 +465,7 @@
 
               <ul>
                 <li *ngFor="let tempHomeandKitchen of homeandkithenArray; index as i">
-                  <a href="#">{{tempHomeandKitchen.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempHomeandKitchen)"> {{tempHomeandKitchen.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -484,7 +484,8 @@
 
               <ul>
                 <li *ngFor="let tempIndustrialandScientific of industrialArray; index as i">
-                  <a href="#">{{tempIndustrialandScientific.catogeryName}}</a>
+                  <a class="links"
+                     (click)="onSelect(tempIndustrialandScientific)"> {{tempIndustrialandScientific.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -512,7 +513,7 @@
 
               <ul>
                 <li *ngFor="let tempLuggage of laggageArray; index as i">
-                  <a href="#">{{tempLuggage.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempLuggage)"> {{tempLuggage.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -531,7 +532,7 @@
 
               <ul>
                 <li *ngFor="let tempMoviesTelevision of moviesArray; index as i">
-                  <a href="#">{{tempMoviesTelevision.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempMoviesTelevision)"> {{tempMoviesTelevision.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -550,7 +551,7 @@
 
               <ul>
                 <li *ngFor="let tempSoftware of softwareArray; index as i">
-                  <a href="#">{{tempSoftware.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempSoftware)"> {{tempSoftware.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -569,7 +570,7 @@
 
               <ul>
                 <li *ngFor="let tempToolsImprovement of toolsArray; index as i">
-                  <a href="#">{{tempToolsImprovement.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempToolsImprovement)"> {{tempToolsImprovement.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -588,7 +589,7 @@
 
               <ul>
                 <li *ngFor="let tempToysandGames of toysArray; index as i">
-                  <a href="#">{{tempToysandGames.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(tempToysandGames)"> {{tempToysandGames.catogeryName}}</a>
                 </li>
               </ul>
             </div>
@@ -607,7 +608,7 @@
 
               <ul>
                 <li *ngFor="let VideoGames of videoArray; index as i">
-                  <a href="#">{{VideoGames.catogeryName}}</a>
+                  <a class="links" (click)="onSelect(VideoGames)"> {{VideoGames.catogeryName}}</a>
                 </li>
               </ul>
             </div>

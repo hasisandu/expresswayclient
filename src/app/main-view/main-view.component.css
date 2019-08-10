@@ -75,3 +75,8 @@ hr{
   height: 0.5px;
   background-color: #bdc3c7;
 }
+
+.links {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {CatogeryServiceService} from "../service/catogery-service.service";
 import {Catogery} from "../dto/catogery";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-main-view',
@@ -44,7 +45,7 @@ export class MainViewComponent implements OnInit {
   smarthomeArray: Catogery[] = [];
   amazanphysicalArray: Catogery[] = [];
 
-  constructor(private catogeryService: CatogeryServiceService) {
+  constructor(private catogeryService: CatogeryServiceService, private router: Router) {
   }
 
   private seperation(cat: Catogery[]) {
@@ -119,6 +120,11 @@ export class MainViewComponent implements OnInit {
       }
       x++;
     }
+  }
+
+
+  onSelect(catogery) {
+    this.router.navigate(['/item-result-view', catogery.catogeryName]);
   }
 
   ngOnInit() {

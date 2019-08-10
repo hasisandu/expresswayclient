@@ -1,0 +1,200 @@
+#deals-and-promotions-txt {
+  margin: 20px 0px 0px 20px;
+  font-weight: bold;
+  font-family: Bahnschrift;
+  color: black;
+  font-size: 23px;
+}
+
+#txt-deals {
+  margin: 0px 0px 50px 20px;
+  font-weight: bold;
+  font-family: Bahnschrift;
+  color: #34495e;
+  font-size: 15px;
+}
+
+#banner {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/AMZN_OutletDeals_Template_March_1500x200_wh_EN.jpg");
+}
+
+#filter-top {
+  width: 100%;
+  height: 50px;
+  border-bottom: #bdc3c7 1px solid;
+}
+
+#available-count {
+  float: left;
+  margin: 10px 0px 0px 20px;
+  font-weight: bold;
+  font-family: Bahnschrift;
+  color: #34495e;
+  font-size: 14px;
+}
+
+#filter-combo {
+  float: right;
+  margin: 10px 20px 0px 0px;
+  font-weight: bold;
+  font-family: Bahnschrift;
+  color: #34495e;
+  font-size: 14px;
+}
+
+#details {
+  height: auto;
+  width: 98%;
+  margin-left: 1%;
+}
+
+#inner-wrap {
+  margin: 0px;
+  width: 100%;
+}
+
+.departmentidandname {
+  font-weight: bold;
+  font-family: Bahnschrift;
+  color: black;
+  font-size: 18px;
+  margin: 10px 0px 0px 20px;
+}
+
+#left-filter {
+  background-color: #F7F7F7;
+  width: 18%;
+  height: auto;
+}
+
+#department-list {
+  list-style: none;
+  padding: 0px;
+  margin: 20px 0px 0px 20px;
+}
+
+#department-list li span {
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #34495e;
+}
+
+#right-wrap {
+  width: 82%;
+  height: auto;
+  margin: 0px;
+}
+
+#deptype, #avlbletype, #price-txt, #discount-txt, #avg-txt {
+  list-style: none;
+  padding: 0px;
+  margin: 20px 0px 0px 20px;
+}
+
+#deptype li a, #avlbletype li a {
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #34495e;
+}
+
+#price-txt li a, #discount-txt li a {
+  font-family: Bahnschrift;
+  font-size: 13px;
+  color: #0984e3;
+}
+
+#discount-txt li a {
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #d63031;
+}
+
+#avg-txt li a {
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #d63031;
+}
+
+
+#deptype li a:hover {
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #3498db;
+}
+
+/*start item*/
+.items-div {
+  width: 25%;
+  height: 510px;
+  margin-top: 10px;
+}
+
+.image-div {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 200px;
+}
+
+.image-div img {
+  height: 100%;
+  height: 100%;
+}
+
+.product-detail {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 250px;
+}
+
+.ids {
+  width: 95%;
+  margin-left: 2.5%;
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #ecf0f1;
+  margin-top: 10px;
+}
+
+.price {
+  color: #e84393;
+  margin: 10px 0px 0px 10px;
+  font-family: Bahnschrift;
+  font-size: 19px;
+
+}
+
+.time-duration {
+  margin: 10px 0px 0px 10px;
+  font-family: Bahnschrift;
+  font-size: 13px;
+  color: #636e72;
+}
+
+.title {
+  margin: 5px 0px 0px 10px;
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: #0984e3;
+  font-weight: bold;
+}
+
+.stars {
+  margin: 0px 0px 0px 10px;
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.stars i {
+  color: #FFB800;
+}
+
+.stars span {
+  color: #0984e3;
+}
+
+/*end item*/

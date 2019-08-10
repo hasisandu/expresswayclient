@@ -1,0 +1,30 @@
+.departmentidandname {
+  font-weight: bold;
+  font-family: Bahnschrift;
+  color: black;
+  font-size: 18px;
+  margin: 10px 0px 0px 20px;
+}
+
+#avg-txt {
+  list-style: none;
+  padding: 0px;
+  margin: 20px 0px 0px 20px;
+}
+
+.stars {
+  margin: 0px 0px 0px 10px;
+  font-family: Bahnschrift;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.stars i {
+  color: #FFB800;
+}
+
+.stars span {
+  color: #0984e3;
+}
+
